@@ -17,7 +17,7 @@ class MainActivity : ComponentActivity() {
             PasswordKeeperTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(color = MaterialTheme.colors.background) {
-                    Greeting("Test")
+                    Greeting("User")
                 }
             }
         }
@@ -33,6 +33,6 @@ fun Greeting(name: String) {
 @Composable
 fun DefaultPreview() {
     PasswordKeeperTheme {
-        Greeting("Android")
+        Greeting("User")
     }
 }
